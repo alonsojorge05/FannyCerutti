@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Atma' rel='stylesheet'>
+    <style>
+        body {
+            font-family: 'Atma';font-size: 22px;
+        }
+    </style>
+    <title>The Rick and Morty Project</title>
+</head>
+
+<body>
+
+  <header>
+    <nav class="navbar">
+      <img src="Logo.png">
+      <ul class="nav-menu">
+        <li class="nav-item" id="all"><a href="#">Todos</a></li>
+        <li class="nav-item" id="female"><a href="#">Mujeres</a></li>
+        <li class="nav-item" id="male"><a href="#">Hombres</a></li>
+        <li class="nav-item" id="gl"><a href="#">Sin género</a></li>
+        <li class="nav-item" id="uk"><a href="#">Desconocido</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="headline">
+    <h1>RICK AND MORTY</h1>
+    <p>¡Conocé a todos los personajes!</p>
+  </section>
+
+  <div id="contenedor" class="contenedor">
+    <p>Total de personajes mostrados: <span id="total-characters"></span></p>
+  </div>
+
+  <main id="box">
+  </main>
+
+  <div class="container-paginador">
+    <p>Página actual: <span id="current-page"></span></p>
+    <p>Total de páginas: <span id="total-pages"></span></p>
+  </div>
+
+  <div class="pagination">
+    <button id="first-page">Primera página</button>
+    <button id="previous-page">Página anterior</button>
+    <button id="next-page">Página siguiente</button>
+    <button id="last-page">Última página</button>
+  </div>
+
+
+  <footer>
+    <h5>© 2023 Proyecto final de Fanny</h5>
+  </footer>
+    
+  <script src="main.js"></script>
+
+</body>
+</html>
